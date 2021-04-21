@@ -2,15 +2,15 @@
 
 //let array=[];
 const names=[ 'Lisa', 'Kaitlin', 'Jan' ];
-const event="surprise";let array=[];
+const event="surprise";//let array=[];
 function writeCards(names,event) {
 
   for (let i = 0; i < names.length; i++) {
 
-array[i]=`Thank you, ${names[i]}, for the wonderful ${event} card!`;
+names[i]=`Thank you, ${names[i]}, for the wonderful ${event} card!`;
 
 }
-console.log(array);
+console.log(names);
   }
 
 writeCards(names,event);
