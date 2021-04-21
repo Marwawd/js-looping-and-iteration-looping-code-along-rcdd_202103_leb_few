@@ -2,7 +2,7 @@
 
 //let array=[];
 const names=[ 'Lisa', 'Kaitlin', 'Jan' ];
-const event="surprise";//let array=[];
+const event="surprise";let array=[];
 function writeCards(names,event) {
 
   for (let i = 0; i < names.length; i++) {
