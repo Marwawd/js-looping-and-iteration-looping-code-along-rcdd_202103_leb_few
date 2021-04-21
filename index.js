@@ -7,7 +7,7 @@ function writeCards(names,event) {
 
   for (let i = 0; i < names.length; i++) {
 
-array[i]=`Thank you, ${names[i]}, for the wonderful ${event} card!`;
+array[i]=`Thank you, ${names[i]}, for the wonderful ${event} gift!`;
 
 }
 return array;
